@@ -1,0 +1,19 @@
+.CriptoCard {
+    margin: 10px 0;
+    cursor: pointer;
+
+    &:hover {
+        box-shadow: 1px 1px 5px #3e3b3b;
+    }
+
+    &__percen-change {
+        text-align: center;
+        padding: 5px 0;
+        border-bottom: 1px solid #9b9999;
+        margin-bottom: 5px;
+    }
+
+    em {
+        margin-left: 5px;
+    }
+}

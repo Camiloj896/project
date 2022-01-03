@@ -1,0 +1,37 @@
+.CriptoInformationPage {
+
+    position: relative;
+    
+    
+    &__Rank {
+        background-color: black;
+        padding: 5px 15px;
+        text-align: center;
+        color: white;
+        position: absolute;
+        right: 0;
+        top: 0;
+
+    }
+
+    &__Coin {
+        margin-top: 15px;
+
+        strong {
+            margin-right: 10px;
+        }
+    }
+
+    &__title {
+        text-align: center;
+        padding: 5px 0;
+        border-bottom: 1px solid #9b9999;
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+
+    .PriceComponent {
+        border-top:  none;
+    }
+
+}

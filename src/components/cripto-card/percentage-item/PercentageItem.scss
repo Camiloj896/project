@@ -1,0 +1,16 @@
+.PercentageItem {
+    &__title {
+        background-color: #2b7181;
+        color: white;
+        text-align: center;
+    }
+
+    &__value {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid;
+        border-bottom: none;
+        margin-top: 5px;
+    }
+}

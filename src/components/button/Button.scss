@@ -1,0 +1,17 @@
+.buttonComponent {
+
+    padding: 10px 0;
+
+    button {
+        border: 1px solid #2b7181;
+        background-color: white;
+        color: #2b7181;
+        border-radius: 15px;
+        padding: 5px 20px;
+
+        &:hover {
+            background-color: #2b7181;
+            color: white;
+        }
+    }
+}
